@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 82.5%;
+}
+
+:root {
+	--dark: #292C35;
+	--light: #F1F1F1;
+	--label: #111;
+}
+
+.corpo {
+    background-color: var(--light);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.corpo.ativo {
+    background-color: var(--dark);
+
+}
+#botao {
+    padding: 1rem 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5rem;
+    width: 9rem;
+    height: auto;
+    background-color: black;
+    position: relative;
+}
+.bola {
+    position: absolute;
+    width: 2.7rem;
+   height: 2.7rem;
+   clip-path: circle();
+   background-color: white;
+   transition: right 0.4s;
+   right: 5.8rem;
+    
+}
+
+.corpo.ativo .bola{
+   right: 0.6rem;
+}
+img {
+    width: 2rem;
+}
