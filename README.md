@@ -1,14 +1,12 @@
 # Desafio: Theme Switcher
 
-## **Índice**
-
 # 💻 Sobre o desafio
 
 Criação da página que contenha um toggle para alternar entre o tema dark e light.
 
 ## Layout
 
-<img alt="foto-desafio" src="./assets/preview.gif" aling="center" width="80%">
+<img alt="foto-desafio" src="./assets/preview.gif" width="50%">
 
 Você pode visualizar o template do projeto [clicando neste link](https://www.figma.com/file/yJ0kcX1684XPoyJnUf1K6J/DD-Theme-Switcher/duplicate)
 # 🚀 **Techs**
